@@ -77,21 +77,28 @@ const GreenhouseTour = () => {
     <div ref={containerRef} className="min-h-screen bg-neutral-50 dark:bg-neutral-900">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0">
+          <img 
+            src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=1920&h=1080&fit=crop" 
+            alt="Modern greenhouse interior" 
+            className="w-full h-full object-cover opacity-40"
+          />
+        </div>
         <motion.div
           style={{ y, opacity }}
-          className="absolute inset-0 bg-gradient-to-br from-primary-100 via-secondary-50 to-neutral-100 dark:from-primary-900 dark:via-secondary-900 dark:to-neutral-900"
+          className="absolute inset-0 bg-gradient-to-br from-primary-100/70 via-secondary-50/70 to-neutral-100/70 dark:from-primary-900/70 dark:via-secondary-900/70 dark:to-neutral-900/70"
         />
         
-        <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
+        <div className="relative z-20 max-w-4xl mx-auto px-4 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-6xl lg:text-8xl font-serif font-bold text-neutral-900 dark:text-neutral-100 mb-6">
+            <h1 className="text-6xl lg:text-8xl font-serif font-bold text-white drop-shadow-lg mb-6">
               {t('greenhouse.title')}
             </h1>
-            <p className="text-xl text-neutral-600 dark:text-neutral-300 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-neutral-100 drop-shadow-md mb-8 max-w-2xl mx-auto">
               {t('greenhouse.subtitle')}
             </p>
             
@@ -162,7 +169,7 @@ const GreenhouseTour = () => {
               <h2 className="text-4xl font-serif font-bold text-neutral-900 dark:text-neutral-100 mb-6">
                 {sections.find(s => s.id === activeSection)?.title}
               </h2>
-              <p className="text-lg text-neutral-600 dark:text-neutral-300 mb-8">
+              <p className="text-lg text-neutral-700 dark:text-neutral-300 mb-8">
                 {sections.find(s => s.id === activeSection)?.description}
               </p>
 

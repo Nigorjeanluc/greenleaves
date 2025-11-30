@@ -41,18 +41,26 @@ const ProductShowcase = () => {
   ]
 
   return (
-    <section id="products" className="py-20 bg-white dark:bg-soil-900">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="products" className="relative py-20 bg-white dark:bg-neutral-900 overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 opacity-5">
+        <img 
+          src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=1920&h=1080&fit=crop" 
+          alt="Agricultural field background" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl lg:text-5xl font-display font-bold text-soil-900 dark:text-leaf-50 mb-4">
+          <h2 className="text-4xl lg:text-5xl font-display font-bold text-neutral-900 dark:text-neutral-100 mb-4">
             Our Premium Products
           </h2>
-          <p className="text-xl text-soil-600 dark:text-earth-300 max-w-3xl mx-auto">
+          <p className="text-xl text-neutral-700 dark:text-neutral-300 max-w-3xl mx-auto">
             Discover our range of fresh, sustainably grown crops. Each product meets international quality standards 
             and is available for wholesale export worldwide.
           </p>

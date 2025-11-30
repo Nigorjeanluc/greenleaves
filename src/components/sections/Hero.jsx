@@ -15,15 +15,21 @@ const Hero = () => {
   return (
     <section ref={containerRef} id="home" className="relative min-h-screen overflow-hidden bg-neutral-50 dark:bg-neutral-900 pt-16">
       {/* Parallax Background Layers */}
-      <div className="absolute inset-0 parallax-container">
+      <div className="absolute inset-0 w-full h-full overflow-hidden">
         <motion.div 
           style={{ y: y2 }}
-          className="parallax-layer bg-gradient-to-br from-primary-100 via-secondary-50 to-neutral-100 dark:from-primary-900 dark:via-secondary-900 dark:to-neutral-900"
+          className="absolute inset-0 w-full h-full bg-gradient-to-br from-primary-100 via-secondary-50 to-neutral-100 dark:from-primary-900 dark:via-secondary-900 dark:to-neutral-900"
         />
         <motion.div 
           style={{ y: y1, opacity }}
-          className="parallax-layer bg-[url('https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=1920&h=1080&fit=crop')] bg-cover bg-center opacity-20"
-        />
+          className="absolute inset-0 w-full h-full opacity-20"
+        >
+          <img 
+            src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=1920&h=1080&fit=crop" 
+            alt="Greenhouse background" 
+            className="w-full h-full object-cover"
+          />
+        </motion.div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -34,19 +40,19 @@ const Hero = () => {
             transition={{ duration: 0.6, ease: 'easeOut' }}
           >
             <motion.h1 
-              className="text-5xl lg:text-7xl font-serif font-bold text-neutral-900 dark:text-neutral-50 mb-6 leading-tight"
+              className="text-5xl lg:text-7xl font-serif font-bold text-white drop-shadow-lg mb-6 leading-tight"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.6, ease: 'easeOut' }}
             >
               Premium
-              <span className="text-primary-700 dark:text-primary-400 block">
+              <span className="text-primary-300 drop-shadow-lg block">
                 Rwandan Crops
               </span>
             </motion.h1>
             
             <motion.p 
-              className="text-xl text-neutral-600 dark:text-neutral-300 mb-8 leading-relaxed font-body"
+              className="text-xl text-neutral-100 drop-shadow-md mb-8 leading-relaxed font-body"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.6, ease: 'easeOut' }}
@@ -85,16 +91,16 @@ const Hero = () => {
               transition={{ delay: 0.8, duration: 0.6, ease: 'easeOut' }}
             >
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary-700 dark:text-primary-400 font-serif">50+</div>
-                <div className="text-sm text-neutral-600 dark:text-neutral-400 font-body">Crop Varieties</div>
+                <div className="text-3xl font-bold text-primary-300 drop-shadow-md font-serif">50+</div>
+                <div className="text-sm text-neutral-200 drop-shadow-sm font-body">Crop Varieties</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary-700 dark:text-primary-400 font-serif">25+</div>
-                <div className="text-sm text-neutral-600 dark:text-neutral-400 font-body">Countries Served</div>
+                <div className="text-3xl font-bold text-primary-300 drop-shadow-md font-serif">25+</div>
+                <div className="text-sm text-neutral-200 drop-shadow-sm font-body">Countries Served</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary-700 dark:text-primary-400 font-serif">100%</div>
-                <div className="text-sm text-neutral-600 dark:text-neutral-400 font-body">Sustainable</div>
+                <div className="text-3xl font-bold text-primary-300 drop-shadow-md font-serif">100%</div>
+                <div className="text-sm text-neutral-200 drop-shadow-sm font-body">Sustainable</div>
               </div>
             </motion.div>
           </motion.div>

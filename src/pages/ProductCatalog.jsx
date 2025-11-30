@@ -57,18 +57,26 @@ const ProductCatalog = () => {
   }, [products, filters, sortBy])
 
   return (
-    <div className="min-h-screen bg-neutral-50 dark:bg-neutral-900 pt-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="min-h-screen bg-neutral-50 dark:bg-neutral-900 pt-20 relative overflow-hidden">
+      {/* Background Image */}
+      <div className="fixed inset-0 opacity-5">
+        <img 
+          src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1920&h=1080&fit=crop" 
+          alt="Fresh vegetables background" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           className="mb-8"
         >
-          <h1 className="text-4xl font-serif font-bold text-neutral-900 dark:text-neutral-100 mb-4">
+          <h1 className="text-4xl font-serif font-bold text-white drop-shadow-lg mb-4">
             {t('products.title')}
           </h1>
-          <p className="text-lg text-neutral-600 dark:text-neutral-300 max-w-3xl">
+          <p className="text-lg text-neutral-100 drop-shadow-md max-w-3xl">
             {t('products.subtitle')}
           </p>
         </motion.div>

@@ -107,21 +107,28 @@ const AboutUs = () => {
     <div ref={containerRef} className="min-h-screen bg-neutral-50 dark:bg-neutral-900">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+        <div className="absolute inset-0">
+          <img 
+            src="https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=1920&h=1080&fit=crop" 
+            alt="Rwanda landscape background" 
+            className="w-full h-full object-cover opacity-30"
+          />
+        </div>
         <motion.div
           style={{ y }}
-          className="absolute inset-0 bg-gradient-to-br from-primary-100 via-secondary-50 to-neutral-100 dark:from-primary-900 dark:via-secondary-900 dark:to-neutral-900"
+          className="absolute inset-0 bg-gradient-to-br from-primary-100/80 via-secondary-50/80 to-neutral-100/80 dark:from-primary-900/80 dark:via-secondary-900/80 dark:to-neutral-900/80"
         />
         
-        <div className="relative z-10 max-w-6xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="relative z-20 max-w-6xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-5xl lg:text-7xl font-serif font-bold text-neutral-900 dark:text-neutral-100 mb-6">
+            <h1 className="text-5xl lg:text-7xl font-serif font-bold text-white drop-shadow-lg mb-6">
               {t('about.title')}
             </h1>
-            <p className="text-xl text-neutral-600 dark:text-neutral-300 mb-8 leading-relaxed">
+            <p className="text-xl text-neutral-100 drop-shadow-md mb-8 leading-relaxed">
               {t('about.description')}
             </p>
             
@@ -136,7 +143,7 @@ const AboutUs = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="border-2 border-primary-700 text-primary-700 dark:text-primary-400 hover:bg-primary-700 hover:text-white px-8 py-4 rounded-lg font-semibold transition-colors"
+                className="border-2 border-white text-white hover:bg-white hover:text-primary-700 px-8 py-4 rounded-lg font-semibold transition-colors drop-shadow-md"
               >
                 Meet the Team
               </motion.button>

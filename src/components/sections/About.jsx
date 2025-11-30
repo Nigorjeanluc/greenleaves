@@ -25,8 +25,16 @@ const About = () => {
   ]
 
   return (
-    <section id="about" className="py-20 bg-gradient-to-br from-earth-50 to-leaf-50 dark:from-soil-800 dark:to-soil-900">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="about" className="relative py-20 bg-gradient-to-br from-secondary-50 to-primary-50 dark:from-neutral-800 dark:to-neutral-900 overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 opacity-10">
+        <img 
+          src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1920&h=1080&fit=crop" 
+          alt="Sustainable farming background" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
