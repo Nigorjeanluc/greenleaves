@@ -1,0 +1,103 @@
+{
+  "products": [
+    {
+      "id": "prod_001",
+      "name": "Premium Greenhouse Tomatoes",
+      "slug": "premium-greenhouse-tomatoes",
+      "description": "Vine-ripened greenhouse tomatoes with exceptional flavor and extended shelf life. Grown in climate-controlled environments for consistent quality year-round.",
+      "category": "greenhouse-vegetables",
+      "image": "🍅",
+      "images": ["/images/tomatoes-1.jpg", "/images/tomatoes-2.jpg"],
+      "moq": "500kg",
+      "availability": "Year-round",
+      "pricing": { "base": 2.50, "unit": "kg" },
+      "certifications": ["organic", "globalgap", "fairtrade"],
+      "origin": "Rwanda",
+      "growingMethod": "greenhouse",
+      "organic": true,
+      "featured": true,
+      "leadTime": "7-14 days",
+      "shippingZones": ["EU", "NA", "ME", "ASIA"]
+    },
+    {
+      "id": "prod_002",
+      "name": "Fresh Basil",
+      "slug": "fresh-basil",
+      "description": "Aromatic fresh basil grown in optimal conditions. Perfect for culinary applications with intense flavor and long-lasting freshness.",
+      "category": "fresh-herbs",
+      "image": "🌿",
+      "images": ["/images/basil-1.jpg", "/images/basil-2.jpg"],
+      "moq": "50kg",
+      "availability": "Year-round",
+      "pricing": { "base": 12.00, "unit": "kg" },
+      "certifications": ["organic", "globalgap"],
+      "origin": "Rwanda",
+      "growingMethod": "greenhouse",
+      "organic": true,
+      "featured": false,
+      "leadTime": "3-7 days",
+      "shippingZones": ["EU", "NA", "ME"]
+    },
+    {
+      "id": "prod_003",
+      "name": "Bell Peppers",
+      "slug": "bell-peppers",
+      "description": "Colorful, sweet bell peppers in red, yellow, and green varieties. Crisp texture and vibrant colors perfect for export markets.",
+      "category": "greenhouse-vegetables",
+      "image": "🫑",
+      "images": ["/images/peppers-1.jpg", "/images/peppers-2.jpg"],
+      "moq": "300kg",
+      "availability": "Year-round",
+      "pricing": { "base": 3.20, "unit": "kg" },
+      "certifications": ["organic", "globalgap"],
+      "origin": "Rwanda",
+      "growingMethod": "greenhouse",
+      "organic": true,
+      "featured": true,
+      "leadTime": "7-10 days",
+      "shippingZones": ["EU", "NA", "ME", "ASIA"]
+    },
+    {
+      "id": "prod_004",
+      "name": "Sweet Corn",
+      "slug": "sweet-corn",
+      "description": "Premium sweet corn grown in Rwanda's fertile fields. High sugar content and tender kernels, perfect for fresh consumption.",
+      "category": "field-crops",
+      "image": "🌽",
+      "images": ["/images/corn-1.jpg", "/images/corn-2.jpg"],
+      "moq": "1000kg",
+      "availability": "Seasonal",
+      "pricing": { "base": 1.80, "unit": "kg" },
+      "certifications": ["globalgap"],
+      "origin": "Rwanda",
+      "growingMethod": "field",
+      "organic": false,
+      "featured": false,
+      "leadTime": "5-12 days",
+      "shippingZones": ["EU", "ME"]
+    }
+  ],
+  "categories": [
+    {
+      "id": "greenhouse-vegetables",
+      "name": "Greenhouse Vegetables",
+      "description": "Climate-controlled premium vegetables",
+      "productCount": 24,
+      "image": "🍅"
+    },
+    {
+      "id": "fresh-herbs",
+      "name": "Fresh Herbs", 
+      "description": "Aromatic herbs for culinary excellence",
+      "productCount": 12,
+      "image": "🌿"
+    },
+    {
+      "id": "field-crops",
+      "name": "Field Crops",
+      "description": "Traditional field-grown produce",
+      "productCount": 18,
+      "image": "🌽"
+    }
+  ]
+}

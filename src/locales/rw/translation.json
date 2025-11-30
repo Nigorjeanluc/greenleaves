@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "Ahabanza",
+    "about": "Ibibazo",
+    "products": "Ibicuruzwa",
+    "greenhouse": "Urubuga",
+    "sustainability": "Iterambere rirambye",
+    "news": "Amakuru",
+    "contact": "Twandikire",
+    "wholesale": "Ubucuruzi bwinshi"
+  },
+  "hero": {
+    "title": "Ibimera by'u Rwanda byiza",
+    "subtitle": "Kuva mu turubuga dusanzwe n'imirima myiza kugeza ku masoko y'isi",
+    "description": "Menya ibimera byiza, ibinyampeke n'ibindi bikurwa n'ubwoba mu butaka bw'u Rwanda.",
+    "cta_browse": "Reba Ibicuruzwa",
+    "cta_quote": "Saba Igiciro"
+  },
+  "stats": {
+    "production": "Toni Zabyazwe",
+    "varieties": "Ubwoko bw'Ibimera",
+    "countries": "Ibihugu Byoherezwa",
+    "sustainable": "Birambye",
+    "annually": "Buri mwaka",
+    "available": "Biraboneka",
+    "worldwide": "Kwisi yose",
+    "practices": "Ibikorwa"
+  },
+  "products": {
+    "title": "Ibicuruzwa byacu byiza",
+    "subtitle": "Menya urutonde rw'ibimera bishya, bikurwa mu buryo burambye. Buri gicuruzwa cyubahiriza amahame mpuzamahanga kandi kiraboneka mu bucuruzi bwinshi kwisi yose.",
+    "moq": "Igipimo gito",
+    "availability": "Kuboneka",
+    "origin": "Inkomoko",
+    "starting_from": "Guhera kuri",
+    "get_quote": "Saba Igiciro",
+    "details": "Ibisobanuro",
+    "view_all": "Reba Ibicuruzwa Byose"
+  },
+  "about": {
+    "title": "Gukura neza mu mutima w'u Rwanda",
+    "description": "Greenleaves ihuza ubumenyi gakondo bw'ubuhinzi bw'u Rwanda n'ikoranabuhanga rigezweho. Ubwitange bwacu ku iterambere rirambye n'ubwiza byatumye tuba umufatanyabikorwa wizewe ku baguzi mpuzamahanga bashaka ibicuruzwa byiza byo muri Afurika.",
+    "organic_certified": "Byemejwe nk'ibisanzwe",
+    "organic_desc": "Amahame mpuzamahanga yo kwemeza ibisanzwe",
+    "fair_trade": "Ubucuruzi bwubahiriza ubunyangamugayo",
+    "fair_trade_desc": "Gushyigikira abaturage n'abahinzi",
+    "quality_assurance": "Kwemeza ubwiza",
+    "quality_desc": "Inzira zikomeye zo kugenzura ubwiza"
+  },
+  "greenhouse": {
+    "title": "Amazu y'ibimera agezweho",
+    "subtitle": "Ibidukikije bigenzuwe kugirango habeho umusaruro umwaka wose",
+    "climate_control": "Kugenzura Ikirere",
+    "production_cycles": "Inzira z'Umusaruro",
+    "sustainability": "Ikoranabuhanga rirambye",
+    "tour": "Uruzinduko rw'ibitekerezo"
+  },
+  "contact": {
+    "title": "Twandikire",
+    "subtitle": "Witeguye gushaka ibimera byiza biva mu Rwanda?",
+    "name": "Amazina yose",
+    "email": "Aderesi ya Email",
+    "company": "Izina ry'ikigo",
+    "message": "Ubutumwa",
+    "send": "Kohereza Ubutumwa",
+    "phone": "Telefoni",
+    "address": "Aderesi"
+  },
+  "footer": {
+    "description": "Ibimera byiza by'u Rwanda bikurwa mu buryo burambye ku masoko y'isi. Umufatanyabikorwa wacu wizewe mu kohereza ibimera byiza.",
+    "products": "Ibicuruzwa",
+    "services": "Serivisi",
+    "company": "Ikigo",
+    "support": "Ubufasha",
+    "newsletter": "Iyandikishe kuri newsletter yacu",
+    "newsletter_desc": "Boneka amakuru ku masaruro, ibicuruzwa bishya n'ubushakashatsi bw'isoko",
+    "subscribe": "Iyandikishe",
+    "rights": "Uburenganzira bwose burarinzwe"
+  },
+  "cart": {
+    "title": "Agasanduku k'Ubucuruzi",
+    "empty": "Agasanduku kawe karimo ubusa",
+    "empty_desc": "Ongeramo ibimera byiza kugirango utangire",
+    "total": "Igiteranyo",
+    "checkout": "Komeza ukishyura",
+    "request_quote": "Saba Igiciro",
+    "remove": "Kuraho"
+  }
+}

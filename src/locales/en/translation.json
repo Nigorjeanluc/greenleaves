@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "greenhouse": "Greenhouse",
+    "sustainability": "Sustainability",
+    "news": "News",
+    "contact": "Contact",
+    "wholesale": "Wholesale"
+  },
+  "hero": {
+    "title": "Premium Rwandan Crops",
+    "subtitle": "From our sustainable greenhouses and fertile fields to your global markets",
+    "description": "Experience the finest quality vegetables, herbs, and crops grown with care in Rwanda's rich soil.",
+    "cta_browse": "Browse Products",
+    "cta_quote": "Request Quote"
+  },
+  "stats": {
+    "production": "Tons Produced",
+    "varieties": "Crop Varieties", 
+    "countries": "Export Countries",
+    "sustainable": "Sustainable",
+    "annually": "Annually",
+    "available": "Available",
+    "worldwide": "Worldwide",
+    "practices": "Practices"
+  },
+  "products": {
+    "title": "Our Premium Products",
+    "subtitle": "Discover our range of fresh, sustainably grown crops. Each product meets international quality standards and is available for wholesale export worldwide.",
+    "moq": "MOQ",
+    "availability": "Availability",
+    "origin": "Origin",
+    "starting_from": "Starting from",
+    "get_quote": "Get Quote",
+    "details": "Details",
+    "view_all": "View All Products"
+  },
+  "about": {
+    "title": "Growing Excellence in Rwanda's Heart",
+    "description": "Greenleaves combines traditional Rwandan agricultural wisdom with cutting-edge farming technology. Our commitment to sustainability and quality has made us a trusted partner for international buyers seeking premium African produce.",
+    "organic_certified": "Certified Organic",
+    "organic_desc": "International organic certification standards",
+    "fair_trade": "Fair Trade Practices", 
+    "fair_trade_desc": "Supporting local communities and farmers",
+    "quality_assurance": "Quality Assurance",
+    "quality_desc": "Rigorous testing and quality control processes"
+  },
+  "greenhouse": {
+    "title": "State-of-the-Art Greenhouse Facilities",
+    "subtitle": "Climate-controlled environments ensuring year-round production",
+    "climate_control": "Climate Control",
+    "production_cycles": "Production Cycles",
+    "sustainability": "Sustainability Tech",
+    "tour": "Virtual Tour"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Ready to source premium crops from Rwanda?",
+    "name": "Full Name",
+    "email": "Email Address",
+    "company": "Company Name",
+    "message": "Message",
+    "send": "Send Message",
+    "phone": "Phone",
+    "address": "Address"
+  },
+  "footer": {
+    "description": "Premium Rwandan crops grown with sustainable practices for global markets. Your trusted partner in quality agricultural exports.",
+    "products": "Products",
+    "services": "Services", 
+    "company": "Company",
+    "support": "Support",
+    "newsletter": "Subscribe to our newsletter",
+    "newsletter_desc": "Get updates on harvests, new products, and market insights",
+    "subscribe": "Subscribe",
+    "rights": "All rights reserved"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "empty_desc": "Add some premium crops to get started",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "request_quote": "Request Quote",
+    "remove": "Remove"
+  }
+}

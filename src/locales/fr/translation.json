@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "products": "Produits",
+    "greenhouse": "Serre",
+    "sustainability": "Durabilité",
+    "news": "Actualités",
+    "contact": "Contact",
+    "wholesale": "Gros"
+  },
+  "hero": {
+    "title": "Cultures Rwandaises Premium",
+    "subtitle": "De nos serres durables et champs fertiles vers vos marchés mondiaux",
+    "description": "Découvrez la plus haute qualité de légumes, herbes et cultures cultivés avec soin dans le sol riche du Rwanda.",
+    "cta_browse": "Parcourir les Produits",
+    "cta_quote": "Demander un Devis"
+  },
+  "stats": {
+    "production": "Tonnes Produites",
+    "varieties": "Variétés de Cultures",
+    "countries": "Pays d'Export",
+    "sustainable": "Durable",
+    "annually": "Annuellement",
+    "available": "Disponible",
+    "worldwide": "Mondial",
+    "practices": "Pratiques"
+  },
+  "products": {
+    "title": "Nos Produits Premium",
+    "subtitle": "Découvrez notre gamme de cultures fraîches cultivées de manière durable. Chaque produit répond aux normes internationales de qualité et est disponible pour l'export en gros dans le monde entier.",
+    "moq": "QMC",
+    "availability": "Disponibilité",
+    "origin": "Origine",
+    "starting_from": "À partir de",
+    "get_quote": "Obtenir un Devis",
+    "details": "Détails",
+    "view_all": "Voir Tous les Produits"
+  },
+  "about": {
+    "title": "Excellence Croissante au Cœur du Rwanda",
+    "description": "Greenleaves combine la sagesse agricole traditionnelle rwandaise avec une technologie agricole de pointe. Notre engagement envers la durabilité et la qualité a fait de nous un partenaire de confiance pour les acheteurs internationaux recherchant des produits africains premium.",
+    "organic_certified": "Certifié Biologique",
+    "organic_desc": "Normes de certification biologique internationales",
+    "fair_trade": "Pratiques de Commerce Équitable",
+    "fair_trade_desc": "Soutenir les communautés locales et les agriculteurs",
+    "quality_assurance": "Assurance Qualité",
+    "quality_desc": "Processus rigoureux de test et de contrôle qualité"
+  },
+  "greenhouse": {
+    "title": "Installations de Serre de Pointe",
+    "subtitle": "Environnements climatisés assurant une production toute l'année",
+    "climate_control": "Contrôle Climatique",
+    "production_cycles": "Cycles de Production",
+    "sustainability": "Technologie Durable",
+    "tour": "Visite Virtuelle"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Prêt à vous approvisionner en cultures premium du Rwanda?",
+    "name": "Nom Complet",
+    "email": "Adresse Email",
+    "company": "Nom de l'Entreprise",
+    "message": "Message",
+    "send": "Envoyer le Message",
+    "phone": "Téléphone",
+    "address": "Adresse"
+  },
+  "footer": {
+    "description": "Cultures rwandaises premium cultivées avec des pratiques durables pour les marchés mondiaux. Votre partenaire de confiance dans les exportations agricoles de qualité.",
+    "products": "Produits",
+    "services": "Services",
+    "company": "Entreprise",
+    "support": "Support",
+    "newsletter": "Abonnez-vous à notre newsletter",
+    "newsletter_desc": "Recevez des mises à jour sur les récoltes, nouveaux produits et insights du marché",
+    "subscribe": "S'abonner",
+    "rights": "Tous droits réservés"
+  },
+  "cart": {
+    "title": "Panier d'Achat",
+    "empty": "Votre panier est vide",
+    "empty_desc": "Ajoutez quelques cultures premium pour commencer",
+    "total": "Total",
+    "checkout": "Procéder au Paiement",
+    "request_quote": "Demander un Devis",
+    "remove": "Supprimer"
+  }
+}
