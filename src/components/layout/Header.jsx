@@ -33,7 +33,7 @@ const Header = ({ onNavigate, onCartOpen, cartItemCount = 0 }) => {
             <div className="w-8 h-8 bg-leaf-600 rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-sm">🌱</span>
             </div>
-            <span className="font-display font-bold text-xl text-leaf-700 dark:text-leaf-300">
+            <span className="font-display font-bold text-xl text-leaf-700 dark:text-white">
               Greenleaves
             </span>
           </motion.div>
