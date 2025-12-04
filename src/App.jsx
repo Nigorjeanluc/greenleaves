@@ -69,16 +69,16 @@ export default function greenleavesClone() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <span className="text-2xl font-bold text-blue-600">Greenleaves</span>
+              <span className="text-2xl font-bold text-green-600">Greenleaves</span>
             </div>
             
             {/* Desktop Menu */}
             <div className="hidden md:flex space-x-8">
-              <a href="#home" className="text-gray-700 hover:text-blue-600 transition">Home</a>
-              <a href="#services" className="text-gray-700 hover:text-blue-600 transition">Services</a>
-              <a href="#portfolio" className="text-gray-700 hover:text-blue-600 transition">Portfolio</a>
-              <a href="#about" className="text-gray-700 hover:text-blue-600 transition">About</a>
-              <a href="#contact" className="text-gray-700 hover:text-blue-600 transition">Contact</a>
+              <a href="#home" className="text-gray-700 hover:text-green-600 transition">Home</a>
+              <a href="#services" className="text-gray-700 hover:text-green-600 transition">Services</a>
+              <a href="#portfolio" className="text-gray-700 hover:text-green-600 transition">Portfolio</a>
+              <a href="#about" className="text-gray-700 hover:text-green-600 transition">About</a>
+              <a href="#contact" className="text-gray-700 hover:text-green-600 transition">Contact</a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -94,33 +94,33 @@ export default function greenleavesClone() {
         {mobileMenuOpen && (
           <div className="md:hidden bg-white border-t">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <a href="#home" className="block px-3 py-2 text-gray-700 hover:bg-blue-50">Home</a>
-              <a href="#services" className="block px-3 py-2 text-gray-700 hover:bg-blue-50">Services</a>
-              <a href="#portfolio" className="block px-3 py-2 text-gray-700 hover:bg-blue-50">Portfolio</a>
-              <a href="#about" className="block px-3 py-2 text-gray-700 hover:bg-blue-50">About</a>
-              <a href="#contact" className="block px-3 py-2 text-gray-700 hover:bg-blue-50">Contact</a>
+              <a href="#home" className="block px-3 py-2 text-gray-700 hover:bg-green-50">Home</a>
+              <a href="#services" className="block px-3 py-2 text-gray-700 hover:bg-green-50">Services</a>
+              <a href="#portfolio" className="block px-3 py-2 text-gray-700 hover:bg-green-50">Portfolio</a>
+              <a href="#about" className="block px-3 py-2 text-gray-700 hover:bg-green-50">About</a>
+              <a href="#contact" className="block px-3 py-2 text-gray-700 hover:bg-green-50">Contact</a>
             </div>
           </div>
         )}
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="pt-24 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 to-indigo-100">
+      <section id="home" className="pt-24 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50 to-indigo-100">
         <div className="max-w-7xl mx-auto">
           <div className="text-center py-16">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
               Building Digital
-              <span className="text-blue-600"> Excellence</span>
+              <span className="text-green-600"> Excellence</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
               We transform ideas into powerful digital solutions that drive business growth and innovation
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition flex items-center justify-center">
+              <button className="px-8 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition flex items-center justify-center">
                 Get Started
                 <ChevronRight className="ml-2 h-5 w-5" />
               </button>
-              <button className="px-8 py-3 border-2 border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition">
+              <button className="px-8 py-3 border-2 border-green-600 text-green-600 rounded-lg hover:bg-green-50 transition">
                 View Our Work
               </button>
             </div>
@@ -159,11 +159,11 @@ export default function greenleavesClone() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {projects.map((project, index) => (
               <div key={index} className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition">
-                <div className="h-48 bg-gradient-to-br from-blue-400 to-indigo-600"></div>
+                <div className="h-48 bg-gradient-to-br from-green-400 to-indigo-600"></div>
                 <div className="p-6">
-                  <span className="text-sm text-blue-600 font-semibold">{project.category}</span>
+                  <span className="text-sm text-green-600 font-semibold">{project.category}</span>
                   <h3 className="text-2xl font-semibold text-gray-900 mt-2">{project.name}</h3>
-                  <button className="mt-4 text-blue-600 hover:text-blue-700 flex items-center">
+                  <button className="mt-4 text-green-600 hover:text-green-700 flex items-center">
                     View Project
                     <ChevronRight className="ml-1 h-4 w-4" />
                   </button>
@@ -188,24 +188,24 @@ export default function greenleavesClone() {
               </p>
               <div className="grid grid-cols-2 gap-6 mt-8">
                 <div>
-                  <div className="text-4xl font-bold text-blue-600">50+</div>
+                  <div className="text-4xl font-bold text-green-600">50+</div>
                   <div className="text-gray-600 mt-2">Projects Delivered</div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold text-blue-600">30+</div>
+                  <div className="text-4xl font-bold text-green-600">30+</div>
                   <div className="text-gray-600 mt-2">Happy Clients</div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold text-blue-600">10+</div>
+                  <div className="text-4xl font-bold text-green-600">10+</div>
                   <div className="text-gray-600 mt-2">Team Members</div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold text-blue-600">5+</div>
+                  <div className="text-4xl font-bold text-green-600">5+</div>
                   <div className="text-gray-600 mt-2">Years Experience</div>
                 </div>
               </div>
             </div>
-            <div className="bg-gradient-to-br from-blue-400 to-indigo-600 rounded-lg h-96"></div>
+            <div className="bg-gradient-to-br from-green-400 to-indigo-600 rounded-lg h-96"></div>
           </div>
         </div>
       </section>
@@ -227,7 +227,7 @@ export default function greenleavesClone() {
                   name="name"
                   value={formData.name}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent" 
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent" 
                 />
               </div>
               <div>
@@ -237,7 +237,7 @@ export default function greenleavesClone() {
                   name="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent" 
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent" 
                 />
               </div>
               <div>
@@ -247,12 +247,12 @@ export default function greenleavesClone() {
                   name="message"
                   value={formData.message}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent"
                 ></textarea>
               </div>
               <button 
                 onClick={handleSubmit}
-                className="w-full px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+                className="w-full px-8 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition"
               >
                 Send Message
               </button>
@@ -260,21 +260,21 @@ export default function greenleavesClone() {
             
             <div className="space-y-6">
               <div className="flex items-start">
-                <MapPin className="h-6 w-6 text-blue-600 mr-4 mt-1" />
+                <MapPin className="h-6 w-6 text-green-600 mr-4 mt-1" />
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Address</h3>
                   <p className="text-gray-600">Kigali, Rwanda</p>
                 </div>
               </div>
               <div className="flex items-start">
-                <Phone className="h-6 w-6 text-blue-600 mr-4 mt-1" />
+                <Phone className="h-6 w-6 text-green-600 mr-4 mt-1" />
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
                   <p className="text-gray-600">+250 XXX XXX XXX</p>
                 </div>
               </div>
               <div className="flex items-start">
-                <Mail className="h-6 w-6 text-blue-600 mr-4 mt-1" />
+                <Mail className="h-6 w-6 text-green-600 mr-4 mt-1" />
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
                   <p className="text-gray-600">info@greenleaves.rw</p>
